@@ -51,6 +51,9 @@ public class Topic_05_Selenium_Text {
         System.out.println(nestedText);
         Assert.assertEquals(nestedText, "Hello Word! (Ignore Me) @04:50");
 
+        // Click Mobile
+        driver.findElement(By.xpath("//a[text()='Mobile']")).click();
+
 
     }
 
